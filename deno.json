@@ -1,0 +1,10 @@
+{
+  "name": "discord-bot",
+  "tasks": {
+    "dev": "deno run --env --watch main.ts",
+    "start": "deno run --env --allow-env main.ts"
+  },
+  "imports": {
+    "discordeno": "https://deno.land/x/discordeno@18.0.1/mod.ts"
+  }
+}
